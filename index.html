@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>American Inn Ozark - Official Website</title>
+<link rel="icon" href="smalllogo.png">
+<style>
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 80%
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-image2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("red.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 80%
+}
+
+.hero-text2 {
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text2 button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+@keyframes scrolldown {
+            0%{
+                transform: translateY(20%) rotate(45deg);
+                opacity: 0.7;
+            }
+            50%{
+                transform: translateY(0%) rotate(45deg);
+                opacity: 0.2;
+            }
+            100%{
+                transform: translateY(20%) rotate(45deg);
+                opacity: 0.7;
+            }
+        }
+
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      
+      .sidenav {
+        height: 100%;
+        width: 250px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: lightturquoise;
+        overflow-x: hidden;
+        padding-top: 20px;
+       // margin-top: 50px;
+       display: none;
+      }
+      #main1
+      {
+          margin-left:260px;
+          //margin-top: 100px;
+          //background-color: turquoise;
+      }
+      #logo{
+          background-color:lightturquoise;
+          color:white;
+          //margin-left:10px;
+          width: 200px;
+          box-shadow: black;
+          border-radius: 2px;
+          border:solid 2px black;
+      }
+      .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        margin-left: px;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+        text-decoration: underline;
+  
+      }
+      
+      .main {
+        margin-left: 160px; /* Same as the width of the sidenav */
+        font-size: 28px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      #cent{
+          margin-left: 200px;
+          font-size: 25px;;
+      }
+
+.hero-text button:hover {
+  opacity: 0.6;
+  color: white;
+}
+
+body {
+  width: 100%;
+  background-color: gray;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black; 
+  opacity: 1;
+  display: none;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
+
+.other {
+  margin-left: 0%
+}
+
+.noselect {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+  
+
+</style>
+</head>
+<body class="noselect">
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 width="100%" style="font-size:80px">American Inn Ozark</h1>
+    <a href="https://bit.ly/3gRdo78" target="_blank" style="font-family: Cambria; font-size: 32px; color: white; text-decoration: none">299 N 20th St, Ozark, MO 65721</a>
+    <p>Call to Reserve</p>
+    <button onclick="window.location.href='tel:417-485-8800'" style="background-color:#ff0000; color: white; font-family: Cambria; font-size: 32px">417-485-8800</button>
+    <button onclick="window.location.href='tel:417-485-8868'" style="background-color:#ff0000; color: white; font-family: Cambria; font-size: 32px">417-485-8868</button>
+
+  </div>
+
+<div class="hospitality" id="hospitality">
+<center><b style="color: blue; font-size: 32px; color: white;top: 80%; right: 34%; height: 100%; background-color: transparent; z-index: 80; 
+            bottom: 25px; position: absolute"><span style="color: white">Hospitality begins here... give us a try!</span></b></center>
+</div>
+<Div style="top: 880px; right: 50%; width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+            bottom: 80px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: antiquewhite; animation: scrolldown 1.2s ease-in-out infinite 0.15s;"></Div>
+<Div style="right: 50%; width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+            bottom: 25px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: antiquewhite; animation: scrolldown 1.2s ease-in-out infinite 0.15s;"></Div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="hero-image2">
+  <div class="hero-text">
+    <h1 width="100%" style="font-size:42px">60 beautiful rooms. The best rates in the area. Choose the one that meets <i>your</i> needs.</h1>
+<button onclick="window.location.href='rooms.html'" style="background-color:#ff0000; color: white; font-family: Cambria; font-size: 32px">View Rooms</button>
+
+<br>
+<br>
+<br>
+<br>
+
+<center><img style="height: 100%" width="30%" src="static123456898765868797978.jpeg" alt="American Inn Ozark rooms"></center>
+
+</div>
+</div>
+
+<div class="hero-image2">
+  <div class="hero-text">
+    <h1 width="100%" style="font-size:42px">The Pool is currently <i>OPEN</i>.</h1>
+<h2 width="100%" style="font-size:20px">It's the perfect time to book your stay! Our pool is currently open, since the temperatures are warm.</h2>
+
+<br>
+<br>
+<br>
+<br>
+
+<center><img style="height: 100%" width="80%" src="pool.jpeg" alt="American Inn Ozark rooms"></center>
+
+</div>
+</div>
+
+<div class="hero-image2">
+  <div class="hero-text">
+    <h1 width="100%" style="font-size:42px">Many attractions to choose from. Where will <i>you</i> head first?</h1>
+<button onclick="window.location.href='https://www.tripadvisor.ca/Attractions-g44758-Activities-Ozark_Missouri.html#:~:text=Things%20to%20Do%20in%20Ozark'" style="background-color:#ff0000; color: white; font-family: Cambria; font-size: 32px">View Full Attractions List</button>
+
+<br>
+<br>
+<br>
+<br>
+
+<center><img width="50%" src="static4985938460547568.jpg" alt="American Inn Ozark rooms"></center>
+
+<br>
+
+<center><img width="50%" src="static068597050708607576.jpg" alt="American Inn Ozark rooms"></center>
+
+</div>
+</div>
+
+<div class="hero-image2">
+  <div class="hero-text">
+    <h1 width="100%" style="font-size:42px"><i>Tons</i> of free parking space. So that you can focus on what matters.</h1>
+<button onclick="window.location.href='https://bit.ly/3haEqYm'" style="background-color:#ff0000; color: white; font-family: Cambria; font-size: 32px">View in 3D</button>
+
+<br>
+<br>
+<br>
+<br>
+
+<center><img width="50%" src="static48558936047065.jpg" alt="American Inn Ozark rooms"></center>
+
+</div>
+</div>
+
+<div class="hero-image2">
+  <div class="hero-text">
+    <h1 width="100%" style="font-size:24px">Missouri's famed motel awaits you! Reserve your room & ask for special <i>discounts</i>!*</h1>
+<button onclick="window.location.href='tel:417-485-8800'" style="background-color:#ff0000; color: white; font-family: Cambria; font-size: 32px">417-485-8800</button>
+    <button onclick="window.location.href='tel:417-485-8868'" style="background-color:#ff0000; color: white; font-family: Cambria; font-size: 32px">417-485-8868</button>
+<button onclick="window.location.href='mailto:ozarkamericaninn@gmail.com'" style="background-color:#ff0000; color: white; font-family: Cambria; font-size: 20px">ozarkamericaninn@gmail.com</button>
+
+<br>
+<br>
+<br>
+<br>
+
+<center><img width="50%" src="american-inn-ozark.jpg" alt="American Inn Ozark rooms"></center>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<center><p style="font-size: 16px">&copy 2011-2021 AMERICAN INN OZARK, MO. All rights reserved.<br><span style="font-size: 14px">*Rooms subject to availability. Possible discounts available to seniors, veterans, AARP members, and AAA members only. Contact us for details.<br><br><a style="color: white" href="mailto:ozarkamericaninn@gmail.com">Reservations & Details</a> · <a style="color: white" href="mailto:americaninnwebsite@gmail.com">Website Support & Info</a> · <u style="color: white; cursor: pointer">A Savir Publication</u></span></p></center>
+
+</div>
+</div>
+
+<br>
+
+</body>
+</html>
