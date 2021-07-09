@@ -2,7 +2,7 @@
 
 The official American Inn Ozark Website GitHub repository, managed by Savir Singh.
 
-WEBSITE: www.americaninnozark.com
+Website: www.americaninnozark.com
 
 RESERVE NOW: 417-485-8800 or americaninnozark@yahoo.com
 
